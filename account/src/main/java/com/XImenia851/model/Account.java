@@ -1,10 +1,21 @@
 package com.XImenia851.model;
 
 import jakarta.persistence.Column;
-import org.springframework.data.annotation.Id;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 
 import java.time.LocalDate;
 
+@Entity
+@Getter
+@Setter
+@ToString
 public class Account {
 
     @Column(name = "customer_id")
@@ -18,5 +29,6 @@ public class Account {
     private String branchAddress;
     @Column(name = "create_dt")
     private LocalDate createDt;
+
 
 }
