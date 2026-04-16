@@ -1,12 +1,12 @@
 package com.XImenia851.repostory;
 
+import com.XImenia851.model.Cards;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import javax.smartcardio.Card;
 import java.util.List;
 
 @Repository
-public interface CardRepository extends CrudRepository<Card, Long> {
-    List<Card> findByCustomerId(int customerId);
+public interface CardRepository extends CrudRepository<Cards, Long> {
+    List<Cards> findByCustomerId(int customerId);
 }
