@@ -9,7 +9,7 @@
 		<version>3.4.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.XImenia851 </groupId>
+	<groupId>com.XImenia851</groupId>
 	<artifactId>configserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>configserver</name>
@@ -53,7 +53,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.jcb826.configserver.ConfigserverApplication</mainClass>
+							<mainClass>com.XImenia851.configserver.ConfigserverApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -64,7 +64,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>/${project.artifactId}</image>
+						<image>ximenia851/${project.artifactId}</image>
 					</to>
 				</configuration>
 			</plugin>
