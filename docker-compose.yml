@@ -1,18 +1,18 @@
 services:
-  accounts:
-    image: enzogavini/accounts:1.0.0
+  bankapp:
+    image: ximenia851/bankapp:latest
     ports:
       - "8080:8080"
     mem_limit: 700m
 
   cards:
-    image: enzogavini/cards:1.0.0
+    image: ximenia851/cards:latest
     ports:
       - "9000:9000"
     mem_limit: 700m
 
   loans:
-    image: enzogavini/loans:1.0.0
+    image: ximenia851/loans:latest
     ports:
       - "8090:8090"
     mem_limit: 700m
