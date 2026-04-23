@@ -25,5 +25,4 @@ public class CardsController {
             return null;
         }
     }
-
 }
